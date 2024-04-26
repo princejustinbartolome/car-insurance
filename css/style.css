@@ -12,6 +12,10 @@ header > div > div > div > img {
 header > div > div > div > button {
     text-align: right;
 }
+.headerBlock01,
+.headerBlock02 {
+    align-content: center;
+}
 
 /* Main Visual CSS */
 .mainVisual {
@@ -460,9 +464,12 @@ footer ul li a {
     footer {
         padding: 50px 10px;
     }
-    footer ul {
-        width: 80%;
-        margin-bottom: 20px;
+    footer ul {        
+        width: 100%;
+        max-width: 305px;
+    }
+    footer .footerBlock01 img {
+        margin-bottom: 0;
     }
     .footerBlock01,
     .footerBlock02,
