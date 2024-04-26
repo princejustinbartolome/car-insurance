@@ -474,13 +474,14 @@ footer ul li a {
     }
     footer ul {        
         width: 100%;
-        max-width: 273px;
+        max-width: 250px;
     }
     footer .footerBlock01 img {
         margin-bottom: 0;
     }
     footer ul li {
         margin-right: 5px;
+        float: none;
     }
     footer ul li:last-child {
         margin-right: 0;
