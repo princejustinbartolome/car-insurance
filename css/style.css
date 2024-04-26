@@ -1,0 +1,486 @@
+/* Header CSS */
+header {
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+header > div > div > div {
+    align-content: center;
+}
+header > div > div > div > img {
+    width: 250px;
+}
+header > div > div > div > button {
+    text-align: right;
+}
+
+/* Main Visual CSS */
+.mainVisual {
+    padding: 100px 0;
+}
+.mainVisual h1 {
+    font-size: 46px;
+    font-weight: 900;
+    color: #13274d;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', 'MS Sans Serif', Helvetica, sans-serif;
+}
+.mainVisual p {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+.formZipCode {
+    width: 80%;
+}
+.formZipCode input {
+    font-size: 25px;
+    color: #13274d;
+    padding: 20px 30px;
+    border-right: none;
+    border: 2px solid #3161ff;
+}
+.formZipCode input:focus {
+    box-shadow: none;
+    border-right: none;
+    border: 2px solid #3161ff;
+}
+.btnQuote {
+    padding: 10px 30px;
+    background: #3161ff;
+    border: 1px solid #3161ff;
+}
+.btnQuote:hover {
+    opacity: 0.9;
+    background: #3161ff;
+    transition: 0.3 all ease;
+    border: 1px solid #3161ff;
+}
+.formZipCode input:active {
+    box-shadow: none;
+    border-right: none;
+    border: 2px solid #3161ff;
+}
+.formZipCode input::placeholder {
+    color: #ccc;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+      -moz-appearance: textfield;
+}
+.formZipCode input {
+    color: #3161ff;
+}
+.formZipCode button {
+    border: none;
+    z-index: 999;
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: -86px;
+    background: #3161ff;
+    font-family: 'Nunito Sans';
+}
+.formZipCode button:hover {
+    opacity: 0.9;
+    background: #3161ff;
+    transition: 0.3s all ease;
+}
+.callToActionAreaBlock .formZipCode {
+    width: 40%;
+    margin: 0 auto;
+
+}
+.quoteWalletUl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.quoteWalletUl li:hover {
+    cursor: pointer;
+    transition: 0.5s all ease;
+    border: 2px solid #13274d;
+    background-color: #13274d;
+}
+.quoteWalletUl li:hover span,
+.quoteWalletUl li:hover svg {
+    color: #fff;
+    transition: 0.3s all ease;
+}
+.quoteWalletUl li a {
+    text-align: center;
+    text-decoration: none;
+}
+.quoteWalletUl li a svg {
+    width: 30px;
+    color: #13274d;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.quoteWalletUl li a span {
+    color: #13274d;
+    font-family: 'Poppins';
+}
+.quoteWalletUl li {
+    float: left;
+    padding: 15px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #13274d;
+}
+.credibilityArea {
+    padding: 50px 0;
+    background: #eff9ff;
+}
+.credibilityArea p {
+    font-size: 28px;
+    font-weight: 900;
+    color: #13274d;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', 'MS Sans Serif', Helvetica, sans-serif;
+}
+.credibilityArea img {
+    width: 170px;
+}
+.adsArea {
+    padding: 100px 0;
+}
+.adsAreaBlock img {
+    width: 90%;
+}
+.adsAreaBlock01 {
+    margin-bottom: 30px;
+    align-content: center;
+}
+.adsAreaBlock01 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #13274d;
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans', 'MS Sans Serif', Helvetica, sans-serif;
+}
+.adsAreaBlock01 p {
+    color: #222;
+    font-family: 'poppins';
+}
+.adsAreaBlock01 .btn {
+    margin-top: 30px;
+}
+.gettingStartedArea {
+    padding: 100px 0;
+    background-color: #eff9ff;
+}
+.gettingStartedTtl {
+    font-size: 36px;
+    font-weight: 900;
+    color: #13274d;
+    line-height: 1.2;
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', 'MS Sans Serif', Helvetica, sans-serif;
+}
+.stepsBlock {
+    display: flex;
+    padding: 30px 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(25, 53, 96, 0.06) 0px 5px 50px 5px;
+}
+.stepsBlock span {
+    z-index: 10;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    margin-right: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepsBlock > div {
+    align-content: center;
+}
+.stepsBlock > div p:first-child {
+    font-size: 20px;
+    color: #13274d;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+}
+.stepsBlock > div p:last-child {
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #13274d;
+    font-weight: bold;
+}
+.callToActionArea {
+    padding: 100px 0;
+}
+.callToActionAreaBlock01 {
+    text-align: center;
+}
+.callToActionAreaBlock {
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #eff9ff;
+}
+.callToActionAreaBlockTtl {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #13274d;
+    font-family: 'Nunito Sans', 'MS Sans Serif', Helvetica, sans-serif;
+}
+.callToActionAreaBlockDesc {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+.callToActionAreaBlock .quoteWalletUl {
+    width: 42%;
+    margin: 0 auto;
+    text-align: center;
+}
+.adsAreaBlock {
+    align-content: center;
+}
+
+footer {
+    color: #222;
+    padding: 50px 0;
+}
+footer div.row > div.col {
+    align-content: center;
+}
+footer .footerBlock01 img {
+    width: 250px;
+}
+footer div.row > div.col:nth-child(2) {
+    text-align: center;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    width: 74%;
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+footer ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+footer ul li a {
+    color: #222;
+    text-decoration: none;
+}
+.spOn {
+    display: none;
+}
+.pcOn {
+    display: block;
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1024px) {
+    .mainVisual h1 {
+        font-size: 33px;
+        line-height: 1.2;
+    }
+    .mainVisual p {
+        font-size: 16px;
+    }
+    .formZipCode input {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    .formZipCode button {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    .adsArea {
+        padding: 70px 0;
+    }
+    .adsAreaBlock01 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .adsAreaBlock01 h2 {
+        font-size: 30px;
+    }
+    .adsArea img {
+        padding-right: 30px;
+    }
+    .gettingStartedTtl {
+        font-size: 30px;
+    }
+    .stepsBlock {
+        display: block;
+        text-align: center;
+    }
+    .gettingStartedArea {
+        padding: 70px 0;
+    }
+    .stepsBlock span {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 20px auto;
+    }
+    .stepsBlock > div p:first-child,
+    .stepsBlock > div p:last-child {
+        font-size: 16px;
+    }
+    .adsArea img {
+        padding: 0;
+        width: 100%;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 40px;
+    }
+    .callToActionAreaBlockDesc {
+        font-size: 18px;
+    }
+    .formZipCode,
+    .callToActionAreaBlock .formZipCode {
+        width: 100%;
+        max-width: 355px;
+    }
+    .credibilityArea p {
+        font-size: 22px;
+    }
+    .callToActionAreaBlockDesc {
+        font-size: 16px;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 33px;
+    }
+    .callToActionAreaBlock01 img {
+        width: 70%;
+    }
+    .stepsBlock {
+        margin-bottom: 20px;
+    }
+    .adsAreaBlock {
+        align-content: center;
+        width: 100%;
+    }
+    .footerBlock01 {
+        margin-bottom: 30px;
+    }
+    .footerBlock01,
+    .footerBlock02,
+    .footerBlock03 {
+        width: 100%;
+        text-align: center !important;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    footer ul {
+        width: 100%;
+        max-width: 305px;
+        margin-bottom: 20px;
+    }
+    .btnQuote {
+        padding: 10px 20px;
+    }
+    header > div > div > div > img {
+        width: 200px;
+    }
+    .adsArea,
+    .mainVisual,
+    .credibilityArea,
+    .callToActionArea,
+    .gettingStartedArea {
+        padding: 70px 10px;
+    }
+    
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 767px) {
+    header > div > div > div > img {
+        width: 200px;
+    }
+    .stepsBlockWrap,
+    .mainVisualBlock01,
+    .mainVisualBlock02 {
+        width: 100%;
+    }
+    .adsArea,
+    .mainVisual,
+    .credibilityArea,
+    .callToActionArea,
+    .gettingStartedArea {
+        padding: 50px 10px;
+    }
+    .callToActionAreaBlockTtl {
+        font-size: 30px;
+    }
+    .callToActionAreaBlock {
+        padding: 50px 10px;
+    }
+    .mainVisualBlock01 {
+        order: 2;
+        margin-top: 30px;
+    }
+    .mainVisualBlock02 {
+        order: 1;
+    }
+    .adsArea img {
+        padding: 0;
+        width: 100%;
+    }
+    .formZipCode {
+        max-width: 100%;
+    }
+    .CompanyLogo {
+        width: 33.33%;
+        margin-bottom: 30px;
+    }
+    .credibilityArea p {
+        font-size: 24px;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    footer ul {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .footerBlock01,
+    .footerBlock02,
+    .footerBlock03 {
+        width: 100%;
+        text-align: center !important;
+    }
+    .footerBlock01 img {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .btnQuote {
+        padding: 10px 20px;
+    }
+    .spOn {
+        display: block;
+    }
+    .pcOn {
+        display: none;
+    }
+  }
