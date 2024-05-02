@@ -1,4 +1,3 @@
-/* Header CSS */
 header {
     padding: 20px 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -16,8 +15,6 @@ header > div > div > div > button {
 .headerBlock02 {
     align-content: center;
 }
-
-/* Main Visual CSS */
 .mainVisual {
     padding: 100px 0;
 }
@@ -416,8 +413,8 @@ footer ul li a {
     
   }
   
-  /* Media query for mobile devices */
-  @media only screen and (max-width: 767px) {
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
     header > div > div > div > img {
         width: 200px;
     }
@@ -505,4 +502,4 @@ footer ul li a {
     .pcOn {
         display: none;
     }
-  }
+}
